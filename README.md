@@ -1,1 +1,0 @@
-# justl0rd.github.io
