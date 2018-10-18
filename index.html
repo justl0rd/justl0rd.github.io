@@ -3,16 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Жизнь твоей мечты</title>
-	<link rel="stylesheet" href="css/mail.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans|Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans|Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/mail.css">
 </head>
 <body>
 	<header class="header" id="header">
 		<div class="container">
-			<img src="img/logo.png" alt="WAYUP" class="logo">
+			<img src="img/logo.png" alt="WAYUP" class="logo animated bounceInDown">
 			<div class="wrapper">
-				<div class="cta">
+				<div class="cta animated bounceInLeft">
 					<h1 class="title">
 						С помощью верстки<br>
 						я создам ту жизнь, о которой<br>
@@ -23,17 +24,17 @@
 					</p>
 					<a href="#" class="btn">Двигаться к мечте!</a>
 				</div>
-				<img src="img/tour.png" alt="World" class="travel">
+				<img src="img/tour.png" alt="World" class="travel  animated bounceInRight">
 			</div>
 		</div>
 	</header>
 	<section id="future" class="future">
 		<div class="container">
-			<h2>
+			<h2 class="animated">
 			Что меня ждет впереди
 			</h2>
 			<div class="wrapper">
-				<div class="card card1">
+				<div class="card animated card1">
 					<h3>
 						Свободное время
 					</h3>
@@ -41,7 +42,7 @@
 						Мне нужно свободное время на семью и самое настоящее
 					</p>
 				</div>
-				<div class="card card2">
+				<div class="card animated card2">
 					<h3>
 						Яркие путешествия
 					</h3>
@@ -49,7 +50,7 @@
 						Работать откуда угодно - что может быть лучше?
 					</p>
 				</div>
-				<div class="card card3">
+				<div class="card animated card3">
 					<h3>
 						Создание ценности
 					</h3>
@@ -62,15 +63,15 @@
 	</section>
 	<section id="contact" class="contact">
 		<div class="container">
-			<h2>
+			<h2 class="animated">
 			Форма заказа билета в будущее
 			</h2>
 			<form action="#" class="form">
-				<input type="text" placeholder="Имя" name="name" class="input" required>
-				<input type="email" placeholder="E-mail" name="email" class="input" required>
-				<input type="tel" placeholder="Телефон" name="phone" class="input" required>
-				<input type="text" placeholder="Куда я полечу в ближайшее время?" name="city" class="input" required>
-				<button type="submit" class="btn">Двигаться к мечте!</button>
+				<input type="text" placeholder="Имя" name="name" class="input animated animated-left" required>
+				<input type="email" placeholder="E-mail" name="email" class="input animated animated-right" required>
+				<input type="tel" placeholder="Телефон" name="phone" class="input animated animated-left" required>
+				<input type="text" placeholder="Куда я полечу в ближайшее время?" name="city" class="input animated animated-right" required>
+				<button type="submit" class="btn animated">Двигаться к мечте!</button>
 			</form>
 		</div>
 	</section>
@@ -81,5 +82,7 @@
 			</p>
 		</div>
 	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

@@ -4,7 +4,8 @@ body {
 	font-weight: 400;
 	padding: 0;
 	margin: 0;
-	color: 201b2d;
+	color: #201b2d;
+	overflow-x: hidden;
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -134,7 +135,12 @@ h3 {
 	font-weight: 400;
 	padding: 60px 0;
 }
-
+.animated {
+	opacity: 0;
+}
+.header .animated {
+	opacity: 1;
+}
  	/* Responsive */
 
  	/* 992-1200 */
