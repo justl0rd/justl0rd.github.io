@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #e3e3e3;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content {
+	position: relative;
+	width: 310px;
+	height: 620px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.phone {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	overflow: hidden;
+}
+#time {
+	align-self: flex-start;
+	margin-top: 40%;
+	font-size: 30px;
+	z-index: 2;
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+.zone {
+	width: 290px;
+	height: 590px;
+	position: absolute;
+	border-radius: 100px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gradient {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	z-index: 0;
+	background: linear-gradient(15deg, #04f9ba, #a104f9, #f90404, #f3f904);
+	background-size: 800% 800%;
+	-webkit-animation: gradi 15s ease infinite;
+	-moz-animation: gradi 15s ease infinite;
+	animation: gradi 15s ease infinite;
+}
+@-webkit-keyframes gradi {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes gradi {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes gradi {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
