@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet"> 
+	<title>Phone</title>
+</head>
+<body>
+	<section class="main">
+			<div class="content">
+					<img class="phone" src="img/phone.png" alt="pone">
+					<span id="time"></span> 
+					<div class="zone">
+						<div class="gradient"></div>
+					</div>
+			</div>
+		</div>	
+	</section>
+<script type="text/javascript">  
+	setInterval(function () {  
+	date = new Date(),  
+	h = date.getHours(),  
+	m = date.getMinutes(),  
+	s = date.getSeconds(),  
+	h = (h < 10) ? '0' + h : h,  
+	m = (m < 10) ? '0' + m : m,  
+	s = (s < 10) ? '0' + s : s,  
+	document.getElementById('time').innerHTML = h + ':' + m + ':' + s;  
+	}, 1000);  
+</script>
+</body>
+</html>
