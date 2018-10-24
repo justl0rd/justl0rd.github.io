@@ -68,7 +68,7 @@ body {
     50%{background-position:50% 100%}
     100%{background-position:51% 0%}
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 .content {
 	width: 264px;
 	height: 528px;
